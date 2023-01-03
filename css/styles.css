@@ -354,6 +354,11 @@ color: var(--text-color);
 } 
 .icon-customers {
     fill: #8E8F99;
+    
+        left: 19.05%;
+        right: 19.05%;
+        top: 18.18%;
+        bottom: 18.18%;
 }
 .link-customers:hover,
 .link-customers:focus {

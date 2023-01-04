@@ -36,25 +36,19 @@ color: var(--text-color);
 
 /*-- Header--*/
 .page-header {
-    padding-top: 24px;
-    
-    
-    
+    border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    
     margin: 0 auto;
 }
 .header-container {
     display: flex;
     height: 72px;
     background: #FFFFFF;
-    border-bottom: 1px solid #E7E9FC;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    
 }   
 .header-container::after{
     content: "";
@@ -146,17 +140,30 @@ color: var(--text-color);
     cursor: pointer;
     color: #4D5AE5;
     background: #F4F4FD;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     padding: 12px 24px;
     display: block;
     margin: 0 auto;
-}  
+} 
+.hero-btn {
+    background: #4D5AE5;
+    color: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border: 1px solid #4D5AE5;
+} 
 .modal-btn:hover,
 .modal-btn:focus {
     background: #404BBF;
     color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}  
+.hero-btn:hover, .hero-btn:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid #404BBF;
 }
 .list-btn {
     display: flex;
